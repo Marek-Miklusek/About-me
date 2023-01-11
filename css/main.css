@@ -1,0 +1,21 @@
+.about-me {
+  height: 70vh;
+  background-color: var(--color-third-blue);
+}
+
+.about-me p {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2em;
+  padding:2em 0 2em;
+}
+
+.portfolio {
+  height: 70vh;
+  background-color: var(--color-fourth-blue);
+}

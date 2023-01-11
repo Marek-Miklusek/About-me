@@ -1,0 +1,35 @@
+:root {
+  --font-family-caveat: 'Caveat', cursive;
+  --color-first-blue:#4ff;
+  --color-second-blue:#0dd;
+  --color-third-blue:#0bb;
+  --color-fourth-blue:#099;
+  --color-fifth-blue:#077;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
