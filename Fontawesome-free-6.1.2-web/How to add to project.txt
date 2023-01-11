@@ -1,0 +1,1 @@
+Nalinkovat all.css a vložiť webfonts
