@@ -1,5 +1,5 @@
 .about-me {
-  height: 70vh;
+  height: 100vh;
   background-color: var(--color-third-blue);
 }
 
@@ -16,6 +16,6 @@ h3 {
 }
 
 .portfolio {
-  height: 70vh;
+  height: 100vh;
   background-color: var(--color-fourth-blue);
 }

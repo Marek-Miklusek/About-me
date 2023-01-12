@@ -8,7 +8,7 @@ footer {
 .contact {
   display: flex;
   justify-content: space-around;
-  padding-bottom: 1.5em;
+  padding-bottom: 2em;
 }
 
 .contact-menu {
@@ -29,12 +29,12 @@ footer {
   color: aliceblue;
 }
 
-.contact-menu li a:hover,
-.contact-menu li :active {
+.contact-menu a:hover,
+.contact-menu a:active {
   color: var(--color-first-blue);
 }
 
-.contact-menu li a::after {
+.contact-menu a::after {
   display:block;
   content: '';
   border-bottom: solid 2px black;  
@@ -42,10 +42,10 @@ footer {
   transition: transform 500ms ease-in-out;
 }
 
-.contact-menu li a:hover:after { transform: scaleX(1); }
-.contact-menu li a:after {  transform-origin:  0% 100%; }
+.contact-menu a:hover:after { transform: scaleX(1); }
+.contact-menu a:after {  transform-origin:  0% 100%; }
 
-.contact-menu li a::before {
+ .contact-menu a::before {
   display:block;
   content: '';
   border-top: solid 2px black;  
@@ -53,20 +53,24 @@ footer {
   transition: transform 500ms ease-in-out;
 }
 
-.contact-menu li a:hover::before { transform: scaleX(1); }
-.contact-menu li a::before {  transform-origin:  100% 0%;}
+ .contact-menu a:hover::before { transform: scaleX(1); }
+ .contact-menu a::before {  transform-origin:  100% 0%;}
 
 /*FORM*/
 
+form {
+  width: 40%;
+}
+
 input {
-  width: 35em;
+  width: 100%;
   height: 2em;
   margin-bottom: 2em;
   border-radius: .5rem;
 }
 
 textarea {
-  width: 36em;
+  width: 100%;
   height: 10em;
   border-radius: .5em;
 }

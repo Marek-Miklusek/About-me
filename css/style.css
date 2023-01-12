@@ -33,3 +33,79 @@ a {
 h1,h2,h3,h4,h5,h6 {
   margin: 0;
 }
+
+/* MEDIA-QUERIES */
+
+@media screen and (max-width:977px) {
+  nav a {
+    margin-right: 2em;
+  }
+}
+
+@media screen and (max-width:892px) {
+  .contact {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding-right: 3em;
+    padding-left: 3em;
+    /* padding-left: 5em; */
+  }
+
+  .contact-menu {
+    max-width: 15em;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  form button {
+    width: 101%;
+  }
+}
+
+@media screen and (max-width:770px) {
+  nav ul {
+    display: none;
+ }
+
+  .hide-nav {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,.5);
+    color: aliceblue;
+    z-index: 9;
+    padding-top: 3.5em;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 5em;
+    position: fixed;
+  }
+
+  .hide-nav a {
+    color: antiquewhite;
+  }
+
+  i.fa-bars {
+    display: block;
+    position: relative;
+    top: .6em;
+    right: 1em;
+    font-size: 1.5em;
+    color: black;
+  }
+
+  span {
+    padding-bottom: .3em;
+  }
+
+}
+
+@media screen and (max-width:507px) {
+   .contact {
+    padding-left: 3em;
+  }
+
+  
+}

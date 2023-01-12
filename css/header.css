@@ -26,7 +26,7 @@ nav a:active {
   transform: scale(1.5);
 }
 
-li a::after {
+.navigation li a::after {
   display:block;
   content: '';
   border-bottom: solid 1.5px black;  
@@ -34,8 +34,8 @@ li a::after {
   transition: transform 500ms ease-in-out;
 }
 
-li a:hover:after { transform: scaleX(1); }
-li a:after {  transform-origin:  0% 100%; }
+.navigation li a:hover:after { transform: scaleX(1); }
+.navigation li a:after {  transform-origin:  0% 100%; }
 
 span {
   font-family:var(--font-family-caveat);
@@ -50,6 +50,16 @@ span a::after {
   border-bottom: 1.5px solid black;
 }
 
+/* HIDE-NAVIGATION */
+
+.hide-nav {
+  display: none;
+}
+
+i.fa-bars {
+  display:none;
+}
+
 /* SECTION-INTRO */
 
 .intro {
@@ -62,13 +72,13 @@ h1,h2 {
   top: 2em;
   text-align: center;
   font-family: var(--font-family-caveat);
+  line-height: 3em;
 }
 
 h1 {
-  font-size: 4em
+  font-size: clamp(2em,10vw,4em);
 }
 
 h2 {
   font-size: 2em;
-  margin-top: 2em;
 }
