@@ -39,22 +39,22 @@ footer {
   content: '';
   border-bottom: solid 2px black;  
   transform: scaleX(0);  
+  transform-origin:  0% 100%;
   transition: transform 500ms ease-in-out;
 }
 
 .contact-menu a:hover:after { transform: scaleX(1); }
-.contact-menu a:after {  transform-origin:  0% 100%; }
 
  .contact-menu a::before {
   display:block;
   content: '';
   border-top: solid 2px black;  
   transform: scaleX(0);  
+  transform-origin:  100% 0%;
   transition: transform 500ms ease-in-out;
 }
 
- .contact-menu a:hover::before { transform: scaleX(1); }
- .contact-menu a::before {  transform-origin:  100% 0%;}
+ .contact-menu a:hover::before { transform: scaleX(1);}
 
 /*FORM*/
 
