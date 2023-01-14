@@ -23,19 +23,21 @@ nav a {
 
 nav a:hover,
 nav a:active {
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 
-.navigation li a::after {
+.navigation a::after {
   display:block;
   content: '';
   border-bottom: solid 1.5px black;  
-  transform: scaleX(0);  
+  transform: scaleX(0); 
+  transform-origin: left; 
   transition: transform 500ms ease-in-out;
 }
 
-.navigation li a:hover:after { transform: scaleX(1); }
-.navigation li a:after {  transform-origin:  0% 100%; }
+.navigation a:hover:after { 
+  transform: scaleX(1); 
+}
 
 span {
   font-family:var(--font-family-caveat);
